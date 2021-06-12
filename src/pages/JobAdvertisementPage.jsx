@@ -18,10 +18,10 @@ function JobAdvertisementPage() {
       setCities(data.data.data);
     });
     titleService.getAll().then((data) => {
-        setTitles(data.data.data);
-      });
+      setTitles(data.data.data);
+    });
 
-  },[]);
+  }, []);
 
   return (
     <div>
@@ -62,36 +62,36 @@ function JobAdvertisementPage() {
           </ShadowBox>
         </div>
         <div className="col">
-           <div className="jobads-right">
-         
-           <div className="custom-select bg-white-cs">
-           <span style={{marginRight:10}}>Sıralama</span>
-                <select className="rounded miniselect">
-                    <option value="">Önerilen</option>
-                    <option value="">Yeniden Eskiye</option>
-                    <option value="">Eskiden Yeniye</option>
-                </select>
-                <span className="custom-arrow" />
-              </div>
-           </div>
+          <div className="jobads-right">
+
+            <div className="custom-select bg-white-cs">
+              <span style={{ marginRight: 10 }}>Sıralama</span>
+              <select className="rounded miniselect">
+                <option value="">Önerilen</option>
+                <option value="">Yeniden Eskiye</option>
+                <option value="">Eskiden Yeniye</option>
+              </select>
+              <span className="custom-arrow" />
+            </div>
+          </div>
           <ShadowBox height={130}>
             <div className="p-10">
-            <div className="d-flex jobads-right align-items-center justify-content-between">
-            <div className="d-flex jobads-right align-items-center">
-            <span >SIEMENS</span>
-            <span className="yeni">Yeni</span>
-            </div>
-            <div className="d-flex jobads-right align-items-center">
-            <span >İstanbul</span>
-            </div>
-            </div>
-            <div className="jobads-right align-items-center">
-            <span className="font-light">Full Stack Developer</span>
-            </div>
-            <div className="jobads-right mtop-10 d-flex justify-content-between align-items-center">
-            <RoundedBox title={"Tam Zamanlı"}/>
-            <span>1 gün önce</span>
-            </div>
+              <div className="d-flex jobads-right align-items-center justify-content-between">
+                <div className="d-flex jobads-right align-items-center">
+                  <span >İşVeren</span>
+                  <span className="yeni">Yeni</span>
+                </div>
+                <div className="d-flex jobads-right align-items-center">
+                  <span >Ankara</span>
+                </div>
+              </div>
+              <div className="jobads-right align-items-center">
+                <span className="font-light">Software Developer</span>
+              </div>
+              <div className="jobads-right mtop-10 d-flex justify-content-between align-items-center">
+                <RoundedBox title={"Tam Zamanlı"} />
+                <span>1 gün önce</span>
+              </div>
 
             </div>
           </ShadowBox>
