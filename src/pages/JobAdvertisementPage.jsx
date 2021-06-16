@@ -29,7 +29,7 @@ function JobAdvertisementPage() {
         <div className="col-2">
           <ShadowBox>
             <div className="p-10 d-flex flex-column jobads-right">
-              <span>Şehirler</span>
+              <span>Cities</span>
               <div className="custom-select">
                 <select className="rounded">
                   {cities.map((data) => (
@@ -38,18 +38,18 @@ function JobAdvertisementPage() {
                 </select>
                 <span className="custom-arrow" />
               </div>
-              <span>Tarih</span>
+              <span>Date</span>
               <label class="custom-container-radio">
-                Tümü
+                All
                 <input type="radio" name="radio" />
                 <span class="checkmark"></span>
               </label>
               <label class="custom-container-radio">
-                Bugün
+                Today
                 <input type="radio" name="radio" />
                 <span class="checkmark"></span>
               </label>
-              <span>Sektör</span>
+              <span>Sector</span>
               <div className="custom-select">
                 <select className="rounded">
                   {titles.map((data) => (
@@ -65,11 +65,11 @@ function JobAdvertisementPage() {
           <div className="jobads-right">
 
             <div className="custom-select bg-white-cs">
-              <span style={{ marginRight: 10 }}>Sıralama</span>
+              <span style={{ marginRight: 10 }}>Ranking</span>
               <select className="rounded miniselect">
-                <option value="">Önerilen</option>
-                <option value="">Yeniden Eskiye</option>
-                <option value="">Eskiden Yeniye</option>
+                <option value="">Suggested</option>
+                <option value="">From new to old</option>
+                <option value="">From old to new</option>
               </select>
               <span className="custom-arrow" />
             </div>
@@ -78,8 +78,8 @@ function JobAdvertisementPage() {
             <div className="p-10">
               <div className="d-flex jobads-right align-items-center justify-content-between">
                 <div className="d-flex jobads-right align-items-center">
-                  <span >İşVeren</span>
-                  <span className="yeni">Yeni</span>
+                  <span >Employer</span>
+                  <span className="new">New</span>
                 </div>
                 <div className="d-flex jobads-right align-items-center">
                   <span >Ankara</span>
@@ -89,8 +89,8 @@ function JobAdvertisementPage() {
                 <span className="font-light">Software Developer</span>
               </div>
               <div className="jobads-right mtop-10 d-flex justify-content-between align-items-center">
-                <RoundedBox title={"Tam Zamanlı"} />
-                <span>1 gün önce</span>
+                <RoundedBox title={"Full time"} />
+                <span>One day before</span>
               </div>
 
             </div>
