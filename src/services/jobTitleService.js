@@ -15,5 +15,4 @@ export default class JobTitleService{
         return axios.get("http://localhost:8080/api/jobtitle/findbytitle/"+titleName)
     }
 
-
 }
