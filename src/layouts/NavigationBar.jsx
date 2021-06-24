@@ -2,6 +2,7 @@ import React from 'react'
 
 import "./CustomNavigation.css"
 
+
 import { AiFillMessage } from "react-icons/ai"
 
 function NavigationBar() {

@@ -7,6 +7,7 @@ import CityService from "../services/cityService";
 import JobTitleService from "../services/jobTitleService";
 import RoundedBox from "../layouts/RoundedBox";
 
+
 function JobAdvertisementPage() {
   const [cities, setCities] = React.useState([]);
   const [titles, setTitles] = React.useState([]);

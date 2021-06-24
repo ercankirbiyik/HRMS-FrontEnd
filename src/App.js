@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import NavigationBar from './layouts/NavigationBar';
 import JobAdvertisementPage from './pages/JobAdvertisementPage';
