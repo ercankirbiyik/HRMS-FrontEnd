@@ -6,3 +6,4 @@ export default class talentService{
         return axios.get("http://localhost:8080/api/talent/getall")
     }
 }
+

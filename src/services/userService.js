@@ -6,3 +6,4 @@ export default class userService{
         return axios.get("http://localhost:8080/api/user/getall")
     }
 }
+
